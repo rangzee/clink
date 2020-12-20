@@ -9,6 +9,8 @@
 
 #include <Windows.h>
 
+#pragma warning(disable: 4838)
+
 //------------------------------------------------------------------------------
 void win_screen_buffer::begin()
 {
